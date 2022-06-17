@@ -1,0 +1,117 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&display=swap');
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    
+    font-size: 15px;
+
+  }
+  .item{
+    width: 300px;
+    height: 500px;
+    /* background-color: blue; */
+    color: white;  
+  }
+  #item-1 {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+  }
+  #item-2 {
+    background-color: hsl(184, 100%, 22%);
+  }
+  #item-3 {
+    background-color:  hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+
+  }
+
+  .first-p ,.second-p, .third-p {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    margin: 40px;
+    margin-top: 8px;
+  }
+
+  .button-1, .button-2, .button-3{
+    padding: 12px;
+    width: 150px;
+    border-radius: 22px;
+    border: 1px solid white;
+    margin: 70px;
+    font-family: 'Lexend Deca';
+    font-weight: 550;
+    font-size: 16px;
+    
+  }
+  .button-1{
+    color: hsl(31, 77%, 52%);
+  }
+  .button-2{
+    color: hsl(184, 100%, 22%);
+  }
+  .button-3{
+    color: hsl(179, 100%, 13%);
+  }
+  
+  h1{
+    margin: 50px;
+    margin-top: -15px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+  }
+  img{
+    margin: 50px;
+  }
+  @media (max-width: 970px){
+    @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap');
+    body {
+        font-family: 'Lexend Deca', sans-serif;
+    
+        
+      }
+      .item{
+        width: 300px;
+        background-color: blue;
+        color: white;
+        
+     
+      }
+      .flex-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        flex-direction: column;
+    
+      }
+      #item-1 {
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 0px;
+        
+      }
+      #item-2 {
+        background-color: hsl(184, 100%, 22%);
+      }
+      #item-3 {
+        background-color:  hsl(179, 100%, 13%);
+        border-radius: 0px;
+      }
+  }
