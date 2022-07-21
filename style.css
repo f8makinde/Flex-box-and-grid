@@ -61,6 +61,17 @@
     font-size: 16px;
     
   }
+a .button-4{
+    padding: 12px;
+    width: 150px;
+    border-radius: 22px;
+    border: 1px solid white;
+    margin: 70px;
+    font-family: 'Lexend Deca';
+    font-weight: 550;
+    font-size: 16px;
+    color: hsl(179, 100%, 13%);
+  }
   .button-1{
     color: hsl(31, 77%, 52%);
   }
