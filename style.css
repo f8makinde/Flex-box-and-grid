@@ -70,10 +70,10 @@ a .button-4{
     font-family: 'Lexend Deca';
     font-weight: 550;
     font-size: 16px;
-    border-color: hsl(24, 100%, 41%);
+    background-color: hsl(24, 100%, 41%);
   }
 div a {
-  align-item: centre
+  text-align: center
 }
   .button-1{
     color: hsl(31, 77%, 52%);
