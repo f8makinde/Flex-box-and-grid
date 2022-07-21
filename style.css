@@ -70,11 +70,11 @@ a .button-4{
     font-weight: 550;
     font-size: 16px;
     color: white;
-    margin: 10px;
     background-color: hsl(24, 100%, 41%);
     
   }
   .grid_btn{
+    margin: 10px;
     text-align: center;
   }
   .button-1{
